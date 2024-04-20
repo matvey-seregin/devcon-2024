@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91a50edb-18a2-462d-9744-a09c77da096d">
+  <producedTypes>
+    <selectionType typeId="ba11ddb0-44e1-42b0-87bb-cadaa81706eb" valueTypeId="490540f7-6f33-4b75-8809-3d9f6654227a"/>
+    <listType typeId="8d2dc8a7-fa05-4afa-bb07-d6ab53d6aa6f" valueTypeId="0e072cfe-d069-4e54-8dea-4c3751dcaa4b"/>
+    <managerType typeId="f326ea67-edcd-4075-b1e2-a96128bb7c60" valueTypeId="2a8ce98b-7ade-4e41-8d2b-fe797718b95a"/>
+    <recordSetType typeId="d44c3039-9bda-4827-a035-aebe66d78984" valueTypeId="e99b50e6-ca36-4caf-8c0b-8706ba5982e5"/>
+    <recordKeyType typeId="f7558eaf-b0e1-4936-a0cf-5172b2e25eb8" valueTypeId="0649308e-9ac7-438a-81d2-0d3f522b3743"/>
+    <recordType typeId="bfe3f510-8e2b-4b8f-a22d-b74d12e27c61" valueTypeId="27c59075-a3f8-44d1-a3a0-ffafb00d4b8a"/>
+    <recordManagerType typeId="aa73c3b3-734b-40e2-b644-767b45dce5a6" valueTypeId="dc6f0510-b250-467e-aaf9-4e99f2eb7e17"/>
+  </producedTypes>
+  <name>ЛКК_ВыгруженнаяНоменклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгруженная номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f7a15b78-0df3-40ef-ac4d-cf1f3d218815">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

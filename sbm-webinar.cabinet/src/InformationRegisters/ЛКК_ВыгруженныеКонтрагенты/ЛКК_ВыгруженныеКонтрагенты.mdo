@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c11b77aa-a298-4056-8c23-e3fde9ea6ffb">
+  <producedTypes>
+    <selectionType typeId="9411a3d9-8276-488f-b872-19671f499148" valueTypeId="848f8de7-30b5-40ab-a435-e10818efec1a"/>
+    <listType typeId="8cd83687-dfb2-41fa-a9ba-1ee418fda483" valueTypeId="b4baa7d9-9ce4-4d26-845d-f40e3413ef91"/>
+    <managerType typeId="d92cac37-ff62-43d7-b4f2-fad8746d24fe" valueTypeId="8b95e4f8-a454-4805-983b-30ec4151bd1b"/>
+    <recordSetType typeId="8958844f-411b-43eb-85a9-87cc98bf1de9" valueTypeId="f7346462-be87-4404-af7a-2a4d36c949b9"/>
+    <recordKeyType typeId="80aa5a86-1c2e-44db-91bd-bb0cf6dd7c1b" valueTypeId="84c35ce5-08d8-4469-80e5-75196377d63f"/>
+    <recordType typeId="530cb6ce-6c2f-4cf1-b1d9-eccb71120ca7" valueTypeId="226b119c-60c1-4ba6-a6c1-c56b465feae7"/>
+    <recordManagerType typeId="7d42b395-5ee3-4ead-95e4-f31995731ec0" valueTypeId="4c88ca41-68be-417d-a16f-2a633ca06285"/>
+  </producedTypes>
+  <name>ЛКК_ВыгруженныеКонтрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгруженные контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5d2b9542-37f6-456d-90e8-d97f991535e0">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

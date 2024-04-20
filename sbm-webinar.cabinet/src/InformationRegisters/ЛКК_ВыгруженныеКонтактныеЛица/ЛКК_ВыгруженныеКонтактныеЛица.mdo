@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="622642e7-a38a-4732-8e1b-bb9a23d62ad7">
+  <producedTypes>
+    <selectionType typeId="11c0ca67-3832-48a6-8192-be2f07c81e45" valueTypeId="74d883b0-167b-471f-b022-4d4eb3a2bd06"/>
+    <listType typeId="75cb09d7-8e2c-4f3a-b818-a7410e771257" valueTypeId="c5a35be8-34d8-49df-8c57-93f671324672"/>
+    <managerType typeId="8c6f74ac-da87-4d36-a267-7b773a8f21ab" valueTypeId="040e0d98-801a-40df-be31-d8e2a8b320da"/>
+    <recordSetType typeId="225c59a8-a7a0-4f64-84c5-11e12c15d4be" valueTypeId="ee9be251-e41a-46c5-9ec0-c30bb1133dcb"/>
+    <recordKeyType typeId="54d8de92-814c-4e6f-bc72-1c09c807cffb" valueTypeId="4db1dc35-8519-48d6-98a5-eb035f761e9a"/>
+    <recordType typeId="4f87d6b4-fc92-4dfe-8846-50f467011003" valueTypeId="7d0058d2-b91b-47aa-b1b4-76fc15dee9fd"/>
+    <recordManagerType typeId="67e1eac8-ca5b-4baf-a0d6-58bc251e2473" valueTypeId="fbc408eb-f2eb-4264-9f01-a258e0bb6803"/>
+  </producedTypes>
+  <name>ЛКК_ВыгруженныеКонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгруженные контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="34275fe4-4bb4-4746-94ae-992c0e42d64a">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

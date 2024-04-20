@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="06b7d7ae-946e-4ba9-8dc2-edd18a0df42a">
+  <name>ЛичныйКабинетКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет клиента</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="fbdb7480-5669-41c8-91e7-9d5c466706e6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="adf7b4f5-5ed7-4a1f-bb03-e622af284243"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="05ed2661-2498-4a29-8cef-b715cf50d244"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="cee026cd-735e-4f8e-b9b4-8d6af6bc5909"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="61265899-3915-489f-9618-004646d4e6a3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="249c7a58-f66d-4e58-a0f8-ccf97134c1a5"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ea55a62c-7c4b-474f-8ae5-57797097f4b8"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ЛКК_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ЛКК_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="0998cd9c-0d31-4b99-b88e-90154c957e91">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ЛКК_ЛичныйКабинетКлиента</subsystems>
+  <commonPictures>CommonPicture.РазделCRM</commonPictures>
+  <roles>Role.ЛКК_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ЛКК_ОбменСЛичнымКабинетом</commonModules>
+  <constants>Constant.ЛКК_АдресЛичногоКабинета</constants>
+  <constants>Constant.ЛКК_ВидЦены</constants>
+  <constants>Constant.ЛКК_ИдентификаторСлужебногоПользователя</constants>
+  <constants>Constant.ЛКК_НомерПолученногоСообщения</constants>
+  <constants>Constant.ЛКК_СекретСлужебногоПользователя</constants>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <documents>Document.ЗаказПокупателя</documents>
+  <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
+  <enums>Enum.ВидыСтавокНДС</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <dataProcessors>DataProcessor.ЛКК_НастройкиОбмена</dataProcessors>
+  <informationRegisters>InformationRegister.ЛКК_ВыгруженнаяНоменклатура</informationRegisters>
+  <informationRegisters>InformationRegister.ЛКК_ВыгруженныеКонтактныеЛица</informationRegisters>
+  <informationRegisters>InformationRegister.ЛКК_ВыгруженныеКонтрагенты</informationRegisters>
+  <informationRegisters>InformationRegister.ЛКК_ЗагруженныеЗаказы</informationRegisters>
+  <informationRegisters>InformationRegister.СвязиКонтрагентКонтакт</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+</mdclass:Configuration>

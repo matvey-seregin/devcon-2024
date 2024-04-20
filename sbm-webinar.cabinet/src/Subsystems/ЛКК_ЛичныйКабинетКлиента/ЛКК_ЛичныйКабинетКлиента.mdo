@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="621be5d2-eb2f-4998-8f16-9cc1edada14a">
+  <name>ЛКК_ЛичныйКабинетКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет клиента</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <useOneCommand>true</useOneCommand>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделCRM</picture>
+  </picture>
+  <content>DataProcessor.ЛКК_НастройкиОбмена</content>
+</mdclass:Subsystem>

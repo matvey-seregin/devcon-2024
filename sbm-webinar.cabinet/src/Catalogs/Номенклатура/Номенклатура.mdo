@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="232223d2-f381-450c-ba1a-1a01a815e673" extendedConfigurationObject="bea7f781-5f18-4219-997c-9a767fb284be">
+  <producedTypes>
+    <objectType typeId="9d5ab161-9896-4ddb-92c1-e35829bc495d" valueTypeId="b52d2de3-7328-40d5-868f-f536edccfdfc"/>
+    <refType typeId="04a8a595-fc2c-4a19-87e4-533f35fe58d1" valueTypeId="63904d29-bfff-4ae0-89e2-fe0d5f926717"/>
+    <selectionType typeId="0ff35825-f910-43db-954d-181dcc0d07fe" valueTypeId="b948dc59-4197-4a04-ae6d-0081963d3982"/>
+    <listType typeId="896da986-ca2d-4562-afc7-d51e6c6ed8bc" valueTypeId="e1676ec6-3f91-4ace-b559-b40bcd02c0fa"/>
+    <managerType typeId="190dd6f0-bbf1-456d-9764-9ad603cd8bb0" valueTypeId="a8e0c768-5a07-40b8-b195-d8fdac79c86a"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="bfb77f39-0747-4686-946e-3968e6538cf5" extendedConfigurationObject="27d64301-1b5e-4ac9-82b2-fc31566ecc01">
+    <name>ВидСтавкиНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыСтавокНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="45cbdc21-2565-480c-a7cc-5f31a8097c88" extendedConfigurationObject="29ee8eb2-cd83-4cc1-b40d-4e152378ea5c">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторЕдиницИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

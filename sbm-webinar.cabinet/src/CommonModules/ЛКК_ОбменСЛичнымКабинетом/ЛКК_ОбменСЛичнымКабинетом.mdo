@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdfdc457-ba7b-47f2-ae2e-f9ceff28b343">
+  <name>ЛКК_ОбменСЛичнымКабинетом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с личным кабинетом</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

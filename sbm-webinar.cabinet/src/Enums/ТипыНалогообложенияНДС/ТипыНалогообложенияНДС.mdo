@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f2324cc0-4d95-40df-b37d-a1973ba63f5e" extendedConfigurationObject="ab643b99-1e57-47e6-a95b-e50a27d61fc2">
+  <producedTypes>
+    <refType typeId="524d6cc8-dd81-4ca5-86b1-1d1146a09e81" valueTypeId="186b4ad2-a8a4-4236-af9a-8d9294415ded"/>
+    <listType typeId="c608f576-882c-4f04-bc69-f71820019a11" valueTypeId="3d0456ed-3af0-4313-9da6-26da9a8886c0"/>
+    <managerType typeId="0d533573-df88-4d27-a025-053a0dce0c11" valueTypeId="65b45b18-aa08-4b49-ae8d-06772fb9bc70"/>
+  </producedTypes>
+  <name>ТипыНалогообложенияНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Enum>

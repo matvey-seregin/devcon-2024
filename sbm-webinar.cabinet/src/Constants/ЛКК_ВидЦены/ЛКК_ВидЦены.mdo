@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="359b63f3-dee9-4d37-8bd4-6445f09f4724">
+  <producedTypes>
+    <managerType typeId="b9e12d34-3f5f-48fe-87ef-ae1c1a97a85d" valueTypeId="4a19e6f2-3329-43e8-bf37-c9fe3167bc32"/>
+    <valueManagerType typeId="1e2b4138-80ef-4f79-b5c9-6e84ef900789" valueTypeId="f90939e6-bc5b-4339-a50d-799ffb44f05b"/>
+    <valueKeyType typeId="5a0218ce-50c2-43c6-ad8e-1f0f049076c6" valueTypeId="291aa0bf-788c-466a-a1c7-ae95b372f445"/>
+  </producedTypes>
+  <name>ЛКК_ВидЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид цены</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыЦен</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

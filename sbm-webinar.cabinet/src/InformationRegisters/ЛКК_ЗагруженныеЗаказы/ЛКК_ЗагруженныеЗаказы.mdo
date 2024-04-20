@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d2097d0-5813-478e-8c53-0fa01f624552">
+  <producedTypes>
+    <selectionType typeId="254463d8-0aa4-4623-a099-cef64d3763d5" valueTypeId="2993b841-a5b0-4176-8112-cbb3064130e9"/>
+    <listType typeId="3935de10-0451-47a7-bfa1-f9620d2f32de" valueTypeId="c8725203-fd2c-4a23-8155-fc8bc6409aaf"/>
+    <managerType typeId="a97dcdfa-8ef0-4cc8-9cce-ba349635af40" valueTypeId="bc26297c-d492-4d5d-a612-47a1e5a1149a"/>
+    <recordSetType typeId="d3e9b62d-6e20-49d1-b33e-601dde39dde7" valueTypeId="c11da592-754c-4132-87e4-bbe0380216a9"/>
+    <recordKeyType typeId="6c7440a6-9059-49b3-91b4-875b9a03923b" valueTypeId="65b280bc-f38d-4fb7-ad08-955bb2d505d4"/>
+    <recordType typeId="ebd65673-e2f3-4d07-8b04-f6039a3443b6" valueTypeId="f509b5d8-978b-4e8d-b980-0e86dde2c8b0"/>
+    <recordManagerType typeId="eb0a9990-c9de-4728-b9f0-df6917cb2375" valueTypeId="bd192aa3-9601-4105-989d-8f957c06d8de"/>
+  </producedTypes>
+  <name>ЛКК_ЗагруженныеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загруженные заказы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d6a67a52-d32b-4fd1-8a23-503128bc9f6c">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

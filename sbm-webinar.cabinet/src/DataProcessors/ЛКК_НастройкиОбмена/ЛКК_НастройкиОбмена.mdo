@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33bbb3f3-f80e-487a-bfb0-da30482983a0">
+  <producedTypes>
+    <objectType typeId="2642ef9c-3bbb-4e58-8f68-ddf5869b987f" valueTypeId="41ef04b9-c742-4239-a329-a0761e87c1b0"/>
+    <managerType typeId="5d616605-89d2-4c6a-ac86-3b478449d527" valueTypeId="7ada0946-d384-4f9b-9bcc-16df2df5b6f8"/>
+  </producedTypes>
+  <name>ЛКК_НастройкиОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЛКК_НастройкиОбмена.Form.Форма</defaultForm>
+  <forms uuid="49bfc1c6-385a-4378-af32-ed93426332ce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a82823a-dca1-4e80-a6b5-aba4e8fb9bc9">
+    <name>ВыборКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор клиента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0d7a468-7f79-469f-8bc7-a4361255cfb0">
+    <name>ВыборПредставителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор представителя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0ec7e4b-4c71-40bc-ac3d-4e46293be364">
+  <producedTypes>
+    <managerType typeId="61c3c81a-9019-4f76-886a-989ce931b033" valueTypeId="2628e42e-9901-4115-88b9-56be22cea4c3"/>
+    <valueManagerType typeId="ce75ac9f-641b-4757-b9c7-832ff0db8347" valueTypeId="7d4febea-c740-4208-a0bb-0c26ef673f07"/>
+    <valueKeyType typeId="20fe8e84-66f2-4b53-865b-2c0526782fe1" valueTypeId="353d5434-7a26-439a-9879-56788eec691e"/>
+  </producedTypes>
+  <name>ЛКК_АдресЛичногоКабинета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес личного кабинета</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

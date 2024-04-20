@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9e7f8dae-bfc1-49c6-abf9-7397a1289f59" extendedConfigurationObject="6a3c1b05-ee48-4aa9-b2c1-4b66e3aeab70">
+  <producedTypes>
+    <objectType typeId="3c3f0a14-f217-4564-b003-9bc377ca35d9" valueTypeId="16dabacd-f26a-471a-9819-63098451915a"/>
+    <refType typeId="4a10f4ba-2d83-4eed-9d47-f84987c23404" valueTypeId="17f76dd8-f328-45f2-a96f-9bfb5be02037"/>
+    <selectionType typeId="52768d7f-7097-4858-ac8f-3b8fd4ebf0c8" valueTypeId="7ade5047-ca9c-48cb-999a-011ee46f4ff0"/>
+    <listType typeId="1f046a63-c00a-4b70-a55a-997126cb95fa" valueTypeId="3073b0c8-7856-4c03-b8d6-71b86cd729e8"/>
+    <managerType typeId="c8409a32-29b5-4690-8fa2-606bf60f9aba" valueTypeId="0107b681-9804-475c-a2b6-cb76c2f67816"/>
+  </producedTypes>
+  <name>Организации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <predefined>
+    <items id="4643d461-aa49-4b70-9486-a59f80ee6af8">
+      <name>ОсновнаяОрганизация</name>
+      <description>Наша фирма</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value>00-000001</value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="c95faa9a-dcba-4c1d-baf9-ae14794bb208" extendedConfigurationObject="902b41c8-9a79-42c4-b5ee-7d32e7d46ae0">
+    <name>БанковскийСчетПоУмолчанию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.БанковскиеСчета</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a8bd04cb-9ddf-4acf-9451-369ab1d8e212" extendedConfigurationObject="ccfe9a5c-f255-46ce-af0d-e0c873974857">
+    <name>КассаПоУмолчанию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Кассы</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

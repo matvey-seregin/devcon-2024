@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="88e0c480-69ce-4847-b3b0-d61e95af3854" extendedConfigurationObject="9b49c443-8e43-46e8-9f78-e79366f16edc">
+  <producedTypes>
+    <objectType typeId="fcb7b1b6-15df-409e-a729-679897be13e0" valueTypeId="812b0dda-3b52-48a5-be3a-fdfc89ed94b1"/>
+    <refType typeId="be392be6-bc37-47db-8b28-c29883ee8a17" valueTypeId="30955756-8951-40e6-a0d6-0bc21c0d2d1e"/>
+    <selectionType typeId="15db146d-1676-4155-9822-8d1be95931b2" valueTypeId="168b7924-4af9-42b2-bf66-c3e6608171e5"/>
+    <listType typeId="00dbee4e-9386-479f-9daf-9871444f3f49" valueTypeId="74353094-ec3b-4a22-a1d6-d6fd861ac44a"/>
+    <managerType typeId="c1c15fc9-decc-4287-b795-0a1c948989ad" valueTypeId="14a47f8f-82e5-4adb-abbf-81397185ef1e"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>

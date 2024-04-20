@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5f271fa-6f47-4de0-9da3-e5268ebb8550">
+  <producedTypes>
+    <managerType typeId="d85101c4-e050-454c-a16f-b73843fabf73" valueTypeId="3d47501b-346c-4fa1-87b5-2e71d7294638"/>
+    <valueManagerType typeId="43439e14-254b-405d-9ef0-9f431159d932" valueTypeId="a8441733-9bc0-4e5c-98eb-9ef5c01ba142"/>
+    <valueKeyType typeId="dadd1f99-3474-4381-b065-6f9cf9f405b8" valueTypeId="53d56d7b-3d47-4f68-b4fb-89f801f48913"/>
+  </producedTypes>
+  <name>ЛКК_НомерПолученногоСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер полученного сообщения</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

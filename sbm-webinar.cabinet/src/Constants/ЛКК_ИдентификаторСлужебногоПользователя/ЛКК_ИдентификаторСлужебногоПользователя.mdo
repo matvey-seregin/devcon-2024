@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b822e2d-c122-4d88-9744-3795366a463d">
+  <producedTypes>
+    <managerType typeId="a6a21083-1b2d-4d64-b485-63f1c666cd66" valueTypeId="78f1acfd-38a8-4dc7-b3e2-4e989ce89cf1"/>
+    <valueManagerType typeId="4b4b49d7-842d-4857-bd8f-e00913d2608c" valueTypeId="3a392303-44a5-405d-bc8a-c7e208af7ab5"/>
+    <valueKeyType typeId="8321be98-8f6b-4191-b3dd-35e207d71802" valueTypeId="8aa11613-9fd0-4941-96b0-a98c173fb1a6"/>
+  </producedTypes>
+  <name>ЛКК_ИдентификаторСлужебногоПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор служебного пользователя</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d71a48f-2add-4ee7-a0b6-43499241707e">
+  <producedTypes>
+    <managerType typeId="a78b8960-ac36-4c5d-992e-59232eba05b4" valueTypeId="3dc9528d-e19a-4d69-9a49-b2f86e93a01f"/>
+    <valueManagerType typeId="17302030-f7f3-42c2-a2c2-1b9494050301" valueTypeId="07ffee51-f4e1-4226-97bf-3b2d76f67edc"/>
+    <valueKeyType typeId="a9838fa8-afa6-4e43-b78c-27387823b21a" valueTypeId="dba9605e-4138-4626-92f2-6402372b27d0"/>
+  </producedTypes>
+  <name>ЛКК_СекретСлужебногоПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Секрет служебного пользователя</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
