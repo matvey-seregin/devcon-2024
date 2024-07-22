@@ -1,6 +1,7 @@
 # Материалы с мастер-класса по 1С:Предприятие.Элемент
 
 Ссылка на мастер-класс: https://youtu.be/N_5716gzsyU?si=mY3H8bEDPKMcws88
+Продолжение мастер-класса: https://youtu.be/bb-iiEIYIGc?si=4SJww6IYnUnOBc3j
 
 # Этапы разработки
 
