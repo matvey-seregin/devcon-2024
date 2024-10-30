@@ -16,7 +16,6 @@
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <resources uuid="d22b8548-eae4-4299-b13d-6428368ee130" extendedConfigurationObject="0d19eb74-bf6e-4116-86fe-df31d53de608">
     <name>Цена</name>
@@ -35,6 +34,7 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
+    <type/>
   </resources>
   <dimensions uuid="6df6f1c6-a6e1-42ff-bb5a-b873d8d4e7fe" extendedConfigurationObject="60782cbe-1ea8-49b3-8d12-06b63e48f302">
     <name>ВидЦен</name>
@@ -48,6 +48,7 @@
         </types>
       </typeExtension>
     </extension>
+    <type/>
   </dimensions>
   <dimensions uuid="bd583451-5d9f-4ca2-ae4b-c7a3f086d740" extendedConfigurationObject="a28e04ee-8fae-48f0-b7c4-e031134c920f">
     <name>Номенклатура</name>
@@ -61,6 +62,7 @@
         </types>
       </typeExtension>
     </extension>
+    <type/>
   </dimensions>
   <dimensions uuid="aedb6c27-d26b-4fe3-9b7a-f4af66d09391" extendedConfigurationObject="4d003232-5e09-4e5c-94f9-008a3b9c38e0">
     <name>Характеристика</name>
@@ -74,5 +76,6 @@
         </types>
       </typeExtension>
     </extension>
+    <type/>
   </dimensions>
 </mdclass:InformationRegister>

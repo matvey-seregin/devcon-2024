@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8670532-211b-458c-b84d-6e8757fddc5a">
+  <producedTypes>
+    <objectType typeId="1531eb12-2392-4478-ba8d-052a5f6ffaae" valueTypeId="636fdfe6-2dc1-4cdf-b377-2824290a354d"/>
+    <refType typeId="3c8cc373-70b7-40a5-921a-bfc6117acb8d" valueTypeId="bff6d7ad-8dbc-4aaf-9189-1b5e33642ab7"/>
+    <selectionType typeId="74020bb9-cbd0-4119-bfd8-7d62e170869d" valueTypeId="4f427b9a-67c7-4881-bf79-3171f917dc47"/>
+    <listType typeId="77070c0e-9663-4232-ac7e-2fc3a344fb3d" valueTypeId="ce62fafd-6e76-4467-bbcd-81c05a118888"/>
+    <managerType typeId="0f576f68-a953-4717-a1a1-319fa2a941f9" valueTypeId="4bb6e21b-6639-49fd-8ac0-5f082bdc14bb"/>
+  </producedTypes>
+  <name>ЛКК_Представители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представители (Личный кабинет)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛКК_Представители.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛКК_Представители.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="016fc58d-6036-4cc0-8522-c666337cc6da">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6dcc65da-9306-48b9-97f1-4f66ad5b0877">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cfd01ac9-0499-4508-b8c8-34a204d7f1e9">
+    <name>ПервыйПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

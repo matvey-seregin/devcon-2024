@@ -9,8 +9,6 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
-    <commandInterface>Extended</commandInterface>
-    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
@@ -34,7 +32,7 @@
   <defaultRoles>Role.ЛКК_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.21</compatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="0998cd9c-0d31-4b99-b88e-90154c957e91">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -47,6 +45,7 @@
   <commonPictures>CommonPicture.РазделCRM</commonPictures>
   <roles>Role.ЛКК_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ЛКК_ОбменСЛичнымКабинетом</commonModules>
+  <exchangePlans>ExchangePlan.ОбменУНФЛКК</exchangePlans>
   <constants>Constant.ЛКК_АдресЛичногоКабинета</constants>
   <constants>Constant.ЛКК_ВидЦены</constants>
   <constants>Constant.ЛКК_ИдентификаторСлужебногоПользователя</constants>
@@ -64,6 +63,9 @@
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.ЛКК_Организации</catalogs>
+  <catalogs>Catalog.ЛКК_Представители</catalogs>
+  <catalogs>Catalog.ЛКК_Номенклатура</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
   <enums>Enum.ВидыСтавокНДС</enums>
