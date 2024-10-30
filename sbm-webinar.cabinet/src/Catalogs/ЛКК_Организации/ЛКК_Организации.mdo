@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c6defc5-21ac-4f71-b724-a3f6d1534497">
+  <producedTypes>
+    <objectType typeId="30f75f68-85db-4a2b-aefc-811478c44f69" valueTypeId="4697bf80-9604-4cb4-afac-924826eb33da"/>
+    <refType typeId="5126354e-6b8d-467c-9011-c21c045d04d1" valueTypeId="a86aa785-6461-4330-a3e3-857dd78fe6fc"/>
+    <selectionType typeId="84dc3e9c-83a4-4082-b0a3-a1dacf57bec2" valueTypeId="e06b8d35-236f-4519-9f9d-167503c551bf"/>
+    <listType typeId="96d5ad0c-9a6d-43e9-b104-2f50f1a7b6b1" valueTypeId="c03f6448-87a7-4fc0-9e3b-456f59e23661"/>
+    <managerType typeId="8dd71dd0-49b3-46cf-99c4-d113ac6d567f" valueTypeId="65fa0974-f7f0-4052-a842-fd59d006e436"/>
+  </producedTypes>
+  <name>ЛКК_Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации (Личный кабинет)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛКК_Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛКК_Организации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Организация (Личный кабинет)</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="ba0cb3e7-6c36-409e-9962-c8e947ff32ed">
+    <producedTypes>
+      <objectType typeId="7f135602-8d76-4799-95f3-24cdac65cd67" valueTypeId="b98832da-0f25-44f7-ab0d-5f1d8817c7c6"/>
+      <rowType typeId="4e43b3c1-79c4-415f-a922-abc3464d1a07" valueTypeId="d743aa75-e8da-4226-9fa2-e3c334159c3f"/>
+    </producedTypes>
+    <name>Представители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представители</value>
+    </synonym>
+    <attributes uuid="25d9142f-371d-4d55-a76a-2d51409622c4">
+      <name>Представитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЛКК_Представители</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -10,5 +10,4 @@
   <extension xsi:type="mdclassExtension:EnumExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
 </mdclass:Enum>

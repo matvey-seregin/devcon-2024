@@ -16,7 +16,6 @@
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <resources uuid="60e0bc34-6cf2-4343-b4bb-9c0564c4431f" extendedConfigurationObject="11cd3a37-4efe-485c-8c2e-e30f6f3fefb1">
     <name>СвязьНедействительна</name>
@@ -30,6 +29,7 @@
         </types>
       </typeExtension>
     </extension>
+    <type/>
   </resources>
   <dimensions uuid="7ac65382-e746-41f3-8228-b90b55413112" extendedConfigurationObject="e563b4fc-c298-4536-ba17-05e9eec145c6">
     <name>Контрагент</name>
@@ -43,6 +43,7 @@
         </types>
       </typeExtension>
     </extension>
+    <type/>
   </dimensions>
   <dimensions uuid="93d4fcfb-87c7-4e1e-aa40-056405b26fad" extendedConfigurationObject="9ec600b8-e08b-462b-966e-5a728376cd5a">
     <name>Контакт</name>
@@ -56,5 +57,6 @@
         </types>
       </typeExtension>
     </extension>
+    <type/>
   </dimensions>
 </mdclass:InformationRegister>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7745377e-6153-4abb-90a5-ad72ab8021b0" thisNode="d5653e2e-e44d-4dff-9998-a3ec59176952">
+  <producedTypes>
+    <objectType typeId="10b2afc0-ef4e-4cd4-a554-cae7252d912b" valueTypeId="314f9749-689b-4f6c-9d94-145bf2254ad8"/>
+    <refType typeId="f65a37f1-74d5-44e8-a0ef-4d7d806ee819" valueTypeId="d6d693c2-2d6d-4947-97fb-b2346cff5e67"/>
+    <selectionType typeId="e207f452-7e15-40ad-a651-c45b918f1175" valueTypeId="0378df2d-df1e-45ad-a0fe-caf51199e5c5"/>
+    <listType typeId="96522865-cb79-4010-90ca-83b2ff59289c" valueTypeId="eb7ae1f8-ae67-412c-acd0-aa6b1f691ae1"/>
+    <managerType typeId="57e5eead-d3b3-4020-89d5-d92c2a9153ac" valueTypeId="f8309b70-67d7-40a9-a83f-e6de15c0c8e5"/>
+  </producedTypes>
+  <name>ОбменУНФЛКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен УНФЛКК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменУНФЛКК.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменУНФЛКК.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.ЛКК_Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ЛКК_Организации</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ЛКК_Представители</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменУНФЛКК.Form.ФормаУзла</defaultObjectForm>
+  <forms uuid="31846f8c-bfe2-420a-bd88-7518935a2ece">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

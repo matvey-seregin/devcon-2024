@@ -12,7 +12,6 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
   <attributes uuid="bfb77f39-0747-4686-946e-3968e6538cf5" extendedConfigurationObject="27d64301-1b5e-4ac9-82b2-fc31566ecc01">
     <name>ВидСтавкиНДС</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -25,6 +24,7 @@
         </types>
       </typeExtension>
     </extension>
+    <type/>
   </attributes>
   <attributes uuid="45cbdc21-2565-480c-a7cc-5f31a8097c88" extendedConfigurationObject="29ee8eb2-cd83-4cc1-b40d-4e152378ea5c">
     <name>ЕдиницаИзмерения</name>
@@ -38,5 +38,6 @@
         </types>
       </typeExtension>
     </extension>
+    <type/>
   </attributes>
 </mdclass:Catalog>
